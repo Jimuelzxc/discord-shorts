@@ -10,7 +10,7 @@ const Short = ({ className, video }) => {
     const [toggle, playVideo, vidRef] = useVideo()
 
     return (
-        <div className={`short w-full h-full ${className}`}>
+        <div className={`short w-full h-full flex flex-col ${className}`}>
             <div className="video h-[85%] overflow-hidden relative" onClick={event}>
                 <div className={`absolute w-full h-full py-5 flex  justify-center items-center bg-dark-highlight ${state ? "visible" : "invisible"}`} >
                     <Wrapper className="flex justify-between items-center">
