@@ -8,7 +8,7 @@ import { useHover } from "../hooks/useHover"
 const VideoNavbar = () => {
     const [state, hoverTrue, hoverFalse] = useHover()
     return (
-        <div className="video-navbar flex-shrink-1 bg-dark-1 hover:brightness-90 relative" onMouseOver={hoverTrue} onMouseOut={hoverFalse}>
+        <div className="video-navbar h-[15%] bg-dark-1 hover:brightness-90 relative" onMouseOver={hoverTrue} onMouseOut={hoverFalse}>
             <More hover={state} />
             <Wrapper className="py-4 flex gap-3">
                 <div>
