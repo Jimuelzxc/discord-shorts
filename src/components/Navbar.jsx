@@ -5,7 +5,7 @@ import ProfilePhoto from "./ProfilePhoto";
 
 const Navbar = () => {
     return (
-        <div className="h-[60px] bg-dark-1 border-b-[1px] drop-shadow-lg border-dark-2">
+        <div className="h-[60px] bg-dark-1 border-b-[1px] drop-shadow-lg border-dark-2 z-40">
             <Wrapper className="flex justify-between">
                 <Brand />
                 <div className="flex items-center gap-4">
