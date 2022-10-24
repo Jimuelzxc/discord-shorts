@@ -8,7 +8,7 @@ import { useHover } from "../hooks/useHover"
 const VideoNavbar = () => {
     const [state, hoverTrue, hoverFalse] = useHover()
     return (
-        <div className="video-navbar h-[150px] bg-dark-1 hover:brightness-90 relative z-40" onMouseOver={hoverTrue} onMouseOut={hoverFalse}>
+        <div className="video-navbar h-[160px] bg-dark-1 hover:brightness-90 relative z-40" onMouseOver={hoverTrue} onMouseOut={hoverFalse}>
             <More hover={state} />
             <Wrapper className="py-4 flex gap-3">
                 <div>
@@ -16,7 +16,7 @@ const VideoNavbar = () => {
                 </div>
                 <div className="w-full">
                     <div className="flex justify-between">
-                        <span className="font-semibold text-[1em] text-pink-400">yusinzxc</span>
+                        <span className="font-semibold text-[1em] text-pink-400">Lorem Ipsum</span>
                         <span className="text-white opacity-25 font-light">08/17/22</span>
                     </div>
                     <p className="text-white">Lorem ipsum dolor sit amet.</p>

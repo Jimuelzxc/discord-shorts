@@ -1,14 +1,15 @@
 import Navbar from "./components/Navbar";
+import Container from "./components/Container";
 import Content from "./components/Content"
 
 function App() {
   return (
     <div className="App h-screen w-full flex items-center justify-center bg-dark-2">
-      <div className="container bg-white h-full sm:w-[500px] flex flex-col">
+      <Container>
         <Navbar />
         <Content />
-      </div>
-    </div>
+      </Container>
+    </div >
   );
 }
 
