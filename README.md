@@ -1,3 +1,6 @@
+# UI
+![alt text](https://raw.githubusercontent.com/Jimuelzxc/discord-shorts/main/src/assets/discord-shorts.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
